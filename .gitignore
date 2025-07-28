@@ -1,0 +1,34 @@
+# ⚙️ Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.tmp/
+.temp/
+
+# 🔐 Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# 👀 Arquivo de exemplo de variáveis (deixe no repositório)
+!.env.example
+
+# 💻 IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# 💾 Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# 🧪 Cobertura de testes
+coverage/
+.nyc_output/
+
+#Environment variables
+.env
